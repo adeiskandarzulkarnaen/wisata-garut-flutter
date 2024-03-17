@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:wisata_garut/detail_screen.dart';
+import 'package:wisata_garut/main_screen.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: false,
       ),
-      home: const DetailScreen(),
+      home: const MainScreen(),
     );
   }
 }
